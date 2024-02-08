@@ -1,5 +1,5 @@
 express=require('express')
-app=express()
+// app=express()
 port=3000
 student=require('./database.js')
 app.listen(port,()=>{console.log('server runing')})
